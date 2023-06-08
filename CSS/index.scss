@@ -61,3 +61,13 @@ body {
     transform: translateY(-6px);
     box-shadow: 0 4px 4px white;
 }
+
+.game-message {
+    text-align: center;
+}
+
+@media only screen and (width: 366px) {
+    .game-message {
+        font-size: 10px
+    }
+}
